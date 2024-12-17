@@ -77,7 +77,7 @@ def main():
         return
 
     # Sidebar filters
-    st.sidebar.header("Filters")
+    st.header("Filters")
     selected_features = st.sidebar.multiselect(
         "Select features to analyze",
         options=['destination', 'coupon', 'time', 'weather', 'expiration', 'passanger'],
